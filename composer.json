@@ -1,0 +1,23 @@
+{
+    "name": "vlogbox-com/file-system-abstraction",
+    "description": "",
+    "keywords": ["bif", "file system"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "VlogBox Dev Team",
+            "email": "development@vlogbox.com"
+        }
+    ],
+    "require": {
+		"php": ">=7.1"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BifFileProducer\\": "src/"
+        }
+    }
+}
